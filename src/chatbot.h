@@ -29,6 +29,10 @@ public:
 
     //// STUDENT CODE
     ////
+    ChatBot(ChatBot &source); // Copy Constructor
+    ChatBot& operator= (ChatBot &source); // Assignment Operator
+    ChatBot(ChatBot &&source); // MOve Constructor
+    ChatBot& operator= (ChatBot &&source); //Move Assignment Operator
 
     ////
     //// EOF STUDENT CODE
